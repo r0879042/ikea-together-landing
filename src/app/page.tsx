@@ -6,18 +6,37 @@ import Quote from "@/components/Quote";
 import ProductGrid from "@/components/ProductGrid";
 import ExploreMore from "@/components/ExploreMore";
 import Footer from "@/components/Footer";
+import FadeInSection from "@/components/FadeInSection";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#FDFBF7]">
       <Header />
-      <Hero />
-      <Keywords />
-      <ImageGallery />
-      <Quote />
-      <ProductGrid />
-      <ExploreMore />
-      <Footer />
+      
+      <FadeInSection>
+        <Hero />
+      </FadeInSection>
+
+      <FadeInSection>
+        <Keywords />
+      </FadeInSection>
+
+      <FadeInSection>
+        <ImageGallery />
+      </FadeInSection>
+
+      <FadeInSection>
+        <Quote />
+      </FadeInSection>
+
+      <FadeInSection>
+        <ProductGrid />
+      </FadeInSection>
+
+      <FadeInSection>
+        <ExploreMore />
+      </FadeInSection>
+
     </main>
     
   );

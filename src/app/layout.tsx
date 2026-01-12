@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ClientBody from "./ClientBody";
+import ChatAssistant from "@/components/ChatAssistant";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -22,7 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.variable}>
-      <ClientBody>{children}</ClientBody>
+      <ClientBody>
+        {children}
+        <ChatAssistant/>
+      </ClientBody>    
     </html>
   );
 }
