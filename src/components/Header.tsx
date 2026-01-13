@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,14 +12,22 @@ export default function Header() {
       <div className="editorial-container">
         <nav className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-[#1A1A1A] rounded-full flex items-center justify-center">
-              <span className="text-white font-semibold text-sm">NL</span>
-            </div>
-            <span className="hidden sm:block text-lg font-medium tracking-tight">
-              Nordic Living
+          <Link href="/" className="flex items-center gap-1">
+            <Image
+              src="/images/logo.png"
+              alt="IKEA logo"
+              width={132}
+              height={52}
+              priority
+            />
+            <span className="hidden sm:block text-xl font-medium tracking-tight">
+              IKEA Together
             </span>
           </Link>
+
+
+
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">

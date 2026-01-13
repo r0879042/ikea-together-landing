@@ -8,7 +8,7 @@ export default function ImageGallery() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-16 md:mb-24">
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
             <Image
-              src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
+              src="/images/AI.PNG"
               alt="Cozy living room with natural light"
               fill
               className="object-cover"
@@ -16,7 +16,7 @@ export default function ImageGallery() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
             <Image
-              src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80"
+              src="/images/tools.PNG"
               alt="Minimalist bedroom design"
               fill
               className="object-cover"
@@ -27,10 +27,15 @@ export default function ImageGallery() {
         {/* Text Block */}
         <div className="max-w-2xl mb-16 md:mb-24">
           <p className="text-lg md:text-xl text-[#4A4A4A] leading-relaxed">
-            Every piece tells a story of heritage and innovation. From handwoven
-            textiles to sustainably sourced wood, our materials are chosen with
-            care for both beauty and longevity. This is design that respects
-            tradition while embracing the future.
+          Building IKEA furniture doesn’t stop at checkout.
+
+          Sometimes you’re missing the right drill bit.
+          Sometimes you need a level — just once.
+          Sometimes the instructions leave you unsure.
+
+          IKEA Together helps you finish what you started.
+          With guidance powered by AI and tools shared by people nearby,
+          you move from box to built — without waste, stress, or buying tools you’ll never use again.
           </p>
         </div>
 
@@ -38,7 +43,7 @@ export default function ImageGallery() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6 mb-16 md:mb-24">
           <div className="md:col-span-5 relative aspect-square md:aspect-[4/5] overflow-hidden rounded-sm">
             <Image
-              src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80"
+              src="/images/kitchen 2.jpg"
               alt="Modern sofa in natural tones"
               fill
               className="object-cover"
@@ -46,7 +51,7 @@ export default function ImageGallery() {
           </div>
           <div className="md:col-span-7 relative aspect-[4/3] md:aspect-[4/5] overflow-hidden rounded-sm">
             <Image
-              src="https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80"
+              src="/images/home.jpg"
               alt="Bedroom with wooden accents"
               fill
               className="object-cover"
@@ -57,10 +62,12 @@ export default function ImageGallery() {
         {/* Caption Text */}
         <div className="md:ml-auto md:max-w-xl mb-16 md:mb-24">
           <p className="text-base md:text-lg text-[#4A4A4A] leading-relaxed">
-            Cushions in natural linen and wool, a mix of muted earth tones and
-            soft textures, come together for a look that feels both refined and
-            inviting. From morning coffee to evening gatherings, this timeless
-            aesthetic brings warmth and character to every moment.
+          Building IKEA furniture often looks simple — until you realise you’re missing the right tools.
+
+          IKEA Together supports you after purchase, helping you understand what you need, guiding you step by 
+          step, and connecting you with nearby neighbors who already have the tools.
+
+         It’s a calmer, more sustainable way to finish your project — without buying things you’ll only use once.
           </p>
         </div>
 

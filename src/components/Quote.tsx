@@ -7,16 +7,16 @@ export default function Quote() {
         <div className="max-w-4xl mx-auto text-center">
           {/* Quote */}
           <blockquote className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium leading-snug tracking-tight mb-12">
-            &ldquo;Great design is born from the harmony between function and
-            beauty. We draw inspiration from nature, tradition, and the quiet
-            moments of everyday life.&rdquo;
+            &ldquo;GA home isn’t finished when the furniture arrives — it’s finished when people can actually build it.
+
+IKEA Together is about removing friction, reducing waste, and helping neighbors support each other through simple, shared solutions.”.&rdquo;
           </blockquote>
 
           {/* Attribution */}
           <div className="flex items-center justify-center gap-4">
             <div className="text-right">
-              <p className="font-medium text-[#1A1A1A]">Anna Lindberg</p>
-              <p className="text-sm text-[#4A4A4A]">Lead Designer</p>
+              <p className="font-medium text-[#1A1A1A]">IKEA Together Team</p>
+              <p className="text-sm text-[#4A4A4A]">Product & Experience</p>
             </div>
             <div className="relative w-16 h-16 rounded-full overflow-hidden bg-[#E5E5E5]">
               <Image

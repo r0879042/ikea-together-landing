@@ -4,17 +4,17 @@ import Link from "next/link";
 const stories = [
   {
     id: 1,
-    title: "Morning Rituals",
-    description: "Creating calm spaces for a mindful start to the day.",
+    title: "Borrow, Don’t Buy",
+    description: "How shared tools reduce waste and save money.",
     image:
-      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=80",
+      "/images/Rectangle 15.png",
   },
   {
     id: 2,
-    title: "Light and Shadow",
-    description: "How natural light transforms Scandinavian interiors.",
+    title: "From Box to Home",
+    description: "What happens after you leave the IKEA store.",
     image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
+      "/images/now.jpg",
   },
   {
     id: 3,

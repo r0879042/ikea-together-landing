@@ -3,19 +3,19 @@ import Image from "next/image";
 const products = [
   {
     id: 1,
-    name: "Pendant Light",
+    name: "Your IKEA Purchase",
     description:
-      "Handcrafted ceramic pendant with a soft, diffused glow perfect for any room.",
+      "You start with an IKEA product — flat-packed, affordable, and ready to become part of your home..",
     image:
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=400&q=80",
+      "/images/ikea.jpg",
   },
   {
     id: 2,
-    name: "Lounge Chair",
+    name: "The Right Tools, Ready",
     description:
-      "Oak frame with woven seat, combining traditional craft with modern comfort.",
+      "Borrow exactly what’s needed — no waste, no unnecessary purchases, no guesswork..",
     image:
-      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=400&q=80",
+      "/images/First tool.jpg",
   },
   {
     id: 3,
@@ -27,11 +27,11 @@ const products = [
   },
   {
     id: 4,
-    name: "Wool Throw",
+    name: "IKEA Together website",
     description:
-      "Sustainably sourced wool blanket in heritage patterns and earthy tones.",
+      "Upload your receipt or product photo and let the AI identify what tools and steps are required..",
     image:
-      "https://images.unsplash.com/photo-1567016432779-094069958ea5?w=400&q=80",
+      "/images/website.jpg",
   },
   {
     id: 5,
@@ -39,15 +39,15 @@ const products = [
     description:
       "Hand-thrown stoneware with organic shapes and a matte glaze finish.",
     image:
-      "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=400&q=80",
+      "/images/tools.PNG",
   },
   {
     id: 6,
-    name: "Linen Cushion",
+    name: "Trusted Neighbors Nearby",
     description:
-      "Stone-washed linen cover with a subtle texture and removable insert.",
+      "Find people in your building or neighborhood who already own the tools you need.",
     image:
-      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&q=80",
+      "/images/Neighbour.jpg",
   },
 ];
 
@@ -56,7 +56,7 @@ export default function ProductGrid() {
     <section id="collection" className="section-spacing border-t border-[#E5E5E5]">
       <div className="editorial-container">
         <h2 className="text-3xl md:text-4xl font-medium tracking-tight mb-12 md:mb-16">
-          Shop the look
+        What you need to get it done
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
