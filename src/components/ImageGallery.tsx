@@ -75,7 +75,7 @@ export default function ImageGallery() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
           <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
             <Image
-              src="https://images.unsplash.com/photo-1618220179428-22790b461013?w=800&q=80"
+              src="/images/Light.PNG"
               alt="Dining area with pendant light"
               fill
               className="object-cover"
@@ -83,7 +83,7 @@ export default function ImageGallery() {
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
             <Image
-              src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&q=80"
+              src="/images/room.PNG"
               alt="Kitchen with natural materials"
               fill
               className="object-cover"

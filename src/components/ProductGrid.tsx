@@ -23,7 +23,7 @@ const products = [
     description:
       "Solid birch construction with clean lines and a natural finish.",
     image:
-      "https://images.unsplash.com/photo-1532372320572-cda25653a26d?w=400&q=80",
+      "/images/mn.PNG",
   },
   {
     id: 4,

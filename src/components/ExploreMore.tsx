@@ -21,7 +21,7 @@ const stories = [
     title: "Sustainable Craft",
     description: "The artisans keeping traditional techniques alive.",
     image:
-      "https://images.unsplash.com/photo-1452457750107-cd084dce177d?w=600&q=80",
+      "/images/boxes.PNG",
   },
 ];
 
