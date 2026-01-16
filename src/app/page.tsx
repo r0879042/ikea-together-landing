@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Keywords from "@/components/Keywords";
 import ImageGallery from "@/components/ImageGallery";
 import Quote from "@/components/Quote";
 import ProductGrid from "@/components/ProductGrid";
@@ -17,9 +16,7 @@ export default function Home() {
         <Hero />
       </FadeInSection>
 
-      <FadeInSection>
-        <Keywords />
-      </FadeInSection>
+      
 
       <FadeInSection>
         <ImageGallery />
